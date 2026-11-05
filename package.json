@@ -1,0 +1,25 @@
+{
+  "name": "azurepipeline",
+  "version": "1.0.0",
+  "description": "Trigger Azure pipeline release",
+  "main": "lib/main.js",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@types/q": "^1.5.2"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.6",
+    "typescript": "^3.5.2",
+    "azure-devops-node-api": "^9.0.1",
+    "jest": "^26.0.1",
+    "@types/jest": "^25.2.2",
+    "ts-jest": "^25.5.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-coverage": "jest --coverage"
+  },
+  "author": "Nishu Bansal",
+  "license": "MIT"
+}
