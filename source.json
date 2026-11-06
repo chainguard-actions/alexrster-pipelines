@@ -9,8 +9,8 @@
   "test_agent_version": "2",
   "harden_agent_version": "2",
   "node_artifact": {
-    "gcs_uri": "gs://prod-actions-node-artifacts/node-artifacts/alexrster/pipelines/v2/sha256-ceab807d3c4e65c0d14de912a4d7144ab685a9ccd2da481131cce2b4e22a89d6.tar.gz",
-    "sha256": "ceab807d3c4e65c0d14de912a4d7144ab685a9ccd2da481131cce2b4e22a89d6",
-    "size_bytes": 16517
+    "gcs_uri": "gs://prod-actions-node-artifacts/node-artifacts/alexrster/pipelines/v2/sha256-d4ed1f8589a54eb3ba2e0c92949e3940bbbbd39ad4df5dccfca8da898687128e.tar.gz",
+    "sha256": "d4ed1f8589a54eb3ba2e0c92949e3940bbbbd39ad4df5dccfca8da898687128e",
+    "size_bytes": 19917024
   }
 }
