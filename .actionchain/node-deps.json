@@ -1,9 +1,10 @@
 {
-  "status": "bundled",
+  "status": "unbundlable",
   "entries": [
     {
       "path": "lib/main.js",
-      "status": "bundled"
+      "status": "unbundlable",
+      "reason": "a bundled dependency reads a file relative to its own directory: node_modules/azure-devops-node-api/WebApi.js: const nodeApiVersion = JSON.parse(fs.readFileSync(path.resolve(__dirname, 'package.json'), 'utf8')).version;"
     }
   ]
 }
